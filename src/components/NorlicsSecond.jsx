@@ -149,8 +149,8 @@ const NorlicsSecond = () => {
 	// };
 
 	return (
-		<section className="md:px-[200px] mt-5">
-			<div className="">
+		<section className="md:px-[200px] mt-5 border border-red-900">
+			<div className=" border border-yellow-900">
 				<div className="flex justify-center bg-[#164782] ">
 					<img src={`/images/interswitchLog.svg`} alt="interswitchLog.svg " />
 				</div>
@@ -158,7 +158,7 @@ const NorlicsSecond = () => {
 			<main className="bg-[#FFFF]  ">
 				<div>
 					<fieldset>
-						<div className="flex gap-4  ml-10 mt-10">
+						<div className="flex gap-4  ml-10 mt-10 border border-red-900">
 							<input
 								id="PaywithESBNs "
 								className="peer/PaywithESBN"
